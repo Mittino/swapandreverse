@@ -5,8 +5,8 @@
 // Write pseudo-code to solve this, then write javascript.
 'use strict';
 var array = [1,2,3,4,5];
-
-console.log(swap(array,0,1));
+console.log(array);
+console.log(swap(array,0,2));
 
 function swap(arry, index1, index2){
   var value1 = arry[index1];
@@ -29,3 +29,4 @@ function reverse(arry){
 }
 
 console.log(reverse(array));
+console.log(array);
